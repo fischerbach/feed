@@ -39,4 +39,4 @@ if category:
 		feed = list(filter(filter_feed, feed))
 		# st.write(json.dumps(feed))
 		st.header("Feed")
-		st.markdown(f"<textarea rows='10' style='width:100%;'>var feed = {feed}</textarea>", unsafe_allow_html=True)
+		st.write(f"var feed = {feed};",)
